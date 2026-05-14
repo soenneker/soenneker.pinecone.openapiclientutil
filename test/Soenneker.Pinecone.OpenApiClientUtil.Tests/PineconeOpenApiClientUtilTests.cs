@@ -4,7 +4,7 @@ using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.Pinecone.OpenApiClientUtil.Tests;
 
-[ClassDataSource<UnitTestHost>(Shared = SharedType.PerTestSession)]
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
 public sealed class PineconeOpenApiClientUtilTests : HostedUnitTest
 {
     private readonly IPineconeOpenApiClientUtil _openapiclientutil;
