@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 namespace Soenneker.Pinecone.OpenApiClientUtil.Abstract;
 
 /// <summary>
-/// Exposes a cached OpenAPI client instance.
+/// Provides a cached client for the Pinecone Nexus API.
 /// </summary>
 public interface IPineconeOpenApiClientUtil: IDisposable, IAsyncDisposable
 {
     /// <summary>
-    /// Gets the value.
+    /// Gets the generated client.
     /// </summary>
     /// <param name="cancellationToken">The cancellation token.</param>
-    /// <returns>A task containing the result of the operation.</returns>
+    /// <returns>The cached Pinecone client.</returns>
     ValueTask<PineconeOpenApiClient> Get(CancellationToken cancellationToken = default);
 }

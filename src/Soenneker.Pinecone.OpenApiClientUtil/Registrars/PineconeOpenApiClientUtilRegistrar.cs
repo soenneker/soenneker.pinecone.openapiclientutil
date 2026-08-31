@@ -6,7 +6,7 @@ using Soenneker.Pinecone.OpenApiClientUtil.Abstract;
 namespace Soenneker.Pinecone.OpenApiClientUtil.Registrars;
 
 /// <summary>
-/// Registers the OpenAPI client utility for dependency injection.
+/// Registers the Pinecone Nexus client provider.
 /// </summary>
 public static class PineconeOpenApiClientUtilRegistrar
 {
