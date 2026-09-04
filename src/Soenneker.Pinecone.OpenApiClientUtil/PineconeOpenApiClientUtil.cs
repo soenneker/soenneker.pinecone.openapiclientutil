@@ -11,6 +11,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.Pinecone.OpenApiClientUtil;
 
+/// <inheritdoc cref="IPineconeOpenApiClientUtil" />
 public sealed class PineconeOpenApiClientUtil : IPineconeOpenApiClientUtil
 {
     private readonly AsyncSingleton<PineconeOpenApiClient> _client;
