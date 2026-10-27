@@ -47,6 +47,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Pinecone.HttpClients" Version="11.0.144" />
-        <PackageReference Include="Soenneker.Pinecone.OpenApiClient" Version="11.0.69" />
+        <PackageReference Include="Soenneker.Pinecone.OpenApiClient" Version="11.0.70" />
     </ItemGroup>
 </Project>
